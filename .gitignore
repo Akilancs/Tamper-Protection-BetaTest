@@ -1,0 +1,30 @@
+# --- Secrets: never commit private keys ---
+private_key.pem
+*.key
+
+# --- Generated output ---
+*.sig.json
+
+# --- Byte-compiled / cache ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Virtual environments ---
+venv/
+env/
+.venv/
+ENV/
+
+# --- Packaging ---
+build/
+dist/
+*.egg-info/
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+
+# --- Editors (other than the tracked VS Code config) ---
+.idea/
+*.swp

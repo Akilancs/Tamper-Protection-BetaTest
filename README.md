@@ -1,4 +1,4 @@
-# DocVerify
+# docVerify
 
 **Document integrity verification using SHA-256 hashing and RSA-PSS digital signatures.**
 

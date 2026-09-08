@@ -77,7 +77,7 @@ The system is organized into five logical modules:
 ## Installation
 
 ```bash
-git clone https://github.com/<your-username>/docverify.git
+git clone https://github.com/Akilancs/docverify.git
 cd docverify
 pip install -r requirements.txt
 ```
@@ -215,10 +215,6 @@ All 7 cases passed, confirming reliable tamper detection, signature authenticati
 - **Language:** Python 3.10+
 - **Cryptography:** [`pyca/cryptography`](https://cryptography.io/) — RSA key generation, SHA-256 hashing, RSA-PSS signing/verification
 - **CLI:** Python's built-in `argparse`
-
-## Academic Context
-
-DocVerify began as a final-year mini-project — *"Document Integrity Verification Using Hash and Digital Signatures"* — in the Department of Computer Science and Engineering, E.G.S. Pillay Engineering College (Autonomous), Nagapattinam, Tamil Nadu, under the guidance of **Dr. V. R. Sugumaran**, Assistant Professor of CSE. The full project report and presentation are included in this repository as `mini_project_final_rev.pptx`.
 
 ## License
 
